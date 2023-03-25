@@ -41,7 +41,8 @@ void loop() {
     scrollMouse();
   }
 
-  //Slight delay, also allows USB sync/idle signals to update.  DigiMouse.delay(5);
+  //Slight delay, also allows USB sync/idle signals to update.  
+  DigiMouse.delay(5);
 }
 
 void pollButtons() {
